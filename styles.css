@@ -15,31 +15,31 @@ body {
     padding: 0;
 }
 
-#logo {
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-#logo h1 {
-    margin: 0 10px;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 0 #000, 
-                 -1px -1px 0 #000, 
-                 1px -1px 0 #000, 
-                 -1px 1px 0 #000;
-}
-
 header {
     background-color: #6c757d;
     padding: 20px;
     text-align: center;
 }
+
+    #logo {
+        background-image: url(images/fondo.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #logo h1 {
+        margin: 0 10px;
+        font-size: 1.5em;
+        text-shadow: 1px 1px 0 #000, 
+                     -1px -1px 0 #000, 
+                     1px -1px 0 #000, 
+                     -1px 1px 0 #000;
+    }
 
 header a {
     color: #ffffff;
