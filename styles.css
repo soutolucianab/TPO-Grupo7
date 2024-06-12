@@ -1,9 +1,38 @@
+:root{
+    --first_color: #5ab4fa;
+    --second_color: #6DA5Cf;
+    --third_color: #728FA5;
+    --fourth_color: #69737A;
+    --fifth_color: #3E4850;
+    --sixth_color: #1F2A33;
+}
+
 body {
     background-color: #f8f9fa;
     color: #343a40;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+#logo {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo h1 {
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0 #000, 
+                 -1px -1px 0 #000, 
+                 1px -1px 0 #000, 
+                 -1px 1px 0 #000;
 }
 
 header {
