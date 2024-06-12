@@ -29,6 +29,7 @@ body {
 #logo h1 {
     margin: 0 10px;
     font-size: 24px;
+    font-weight: lighter;
     text-shadow: 1px 1px 0 #000, 
         -1px -1px 0 #000, 
         1px -1px 0 #000, 
