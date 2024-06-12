@@ -15,6 +15,7 @@ body {
     padding: 0;
 }
 
+/*Header1*/
 #logo {
     background-image: url(images/fondo.jpg);
     background-size: cover;
@@ -36,7 +37,31 @@ body {
         -1px 1px 0 #000;
 }
 
+.container-redes{
+    display: flex;
+    align-items: center;
+}
 
+.fa-instagram{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+.fa-facebook{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+.fa-whatsapp{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+/*Header*/
 header {
     background-color: var(--fourth_color);
     text-align: center;
