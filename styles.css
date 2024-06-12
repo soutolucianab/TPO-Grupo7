@@ -37,7 +37,7 @@ body {
 
 
 header {
-    background-color: #6c757d;
+    background-color: var(--fourth_color);
     text-align: center;
 }
 
