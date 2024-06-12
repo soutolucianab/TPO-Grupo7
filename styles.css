@@ -45,19 +45,19 @@ body {
 .fa-instagram{
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
     padding: 1rem;
 }
 .fa-facebook{
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
     padding: 1rem;
 }
 .fa-whatsapp{
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
     padding: 1rem;
 }
 
