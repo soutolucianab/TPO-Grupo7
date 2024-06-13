@@ -5,8 +5,10 @@
     --fourth_color: #69737A;
     --fifth_color: #3E4850;
     --sixth_color: #1F2A33;
+    --background-color: rgb(247, 232, 220);
 }
 
+/*Body*/
 body {
     background-color: #f8f9fa;
     color: #343a40;
@@ -15,42 +17,65 @@ body {
     padding: 0;
 }
 
-/*Header1*/
-#logo {
+/*header*/
+header {
+    background-color: var(--fourth_color);
+    position: relative;
+    height: 200px;
+}
+/*Container-Redes*/
+.container-redes {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.container-redes a {
+   margin-left: 20px;
+}
+
+.fa-instagram, .fa-facebook, .fa-whatsapp {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+.fa-instagram:hover, .fa-facebook:hover, .fa-whatsapp:hover {
+    color: var(--first_color);
+}
+
+
+/*Container-Logo-*/
+.logo {
     background-image: url(images/fondo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     color: white;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
-    
-#logo h1 {
-    margin: 0 10px;
+
+.logo h1 {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px 0 #000, 
-        -1px -1px 0 #000, 
-        1px -1px 0 #000, 
-        -1px 1px 0 #000;
+                 -1px -1px 0 #000, 
+                 1px -1px 0 #000, 
+                 -1px 1px 0 #000;
 }
 
-/*Header*/
-header {
-    background-color: var(--fourth_color);
-    text-align: center;
-    padding: 20px;
-}
+/*Dropdown*/
 
-header a {
+.dropdown-content a {
     color: #ffffff;
-    margin: 0 15px;
+    padding: 20px 20px; 
     text-decoration: none;
     font-weight: bold;
 }
-
+/*Footer*/
 footer {
     background-color: #6c757d;
     color: #ffffff;
@@ -77,6 +102,26 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .container-redes {
+        top: 10px;
+        left: 10px;
+    }
+    .container-redes a {
+        margin-left: 10px;
+    }
+    .fa-instagram, .fa-facebook, .fa-whatsapp {
+        font-size: 1rem;
+        text-decoration: none;
+        color: var(--background-color);
+    }
+    .logo h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 1px 1px 0 #000, 
+                     -1px -1px 0 #000, 
+                     1px -1px 0 #000, 
+                     -1px 1px 0 #000;
+    }
     header a {
         display: block;
         margin: 10px 0;
@@ -89,6 +134,7 @@ footer {
     .main-section img {
         max-width: 200px; /* Ajustar tamaño para pantallas más pequeñas */
     }
+    
 .dropbtn {
         background-color: #767f88;
         /*color: #EEF1FF;*/
@@ -148,4 +194,27 @@ footer {
     
         .dropdown-content a:hover {color: #D2DAFF}
 
+}
+@media (max-width: 400px) {
+    .container-redes {
+        top: 0px;
+        left: 0px;
+    }
+    .container-redes a {
+        margin-left: 8px;
+    }
+
+    .fa-instagram, .fa-facebook, .fa-whatsapp {
+        font-size: 0.7rem;
+        text-decoration: none;
+        color: var(--background-color);
+    }
+    .logo h1 {
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: 1px 1px 0 #000, 
+                     -1px -1px 0 #000, 
+                     1px -1px 0 #000, 
+                     -1px 1px 0 #000;
+    }
 }
