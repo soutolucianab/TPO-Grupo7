@@ -5,12 +5,12 @@
     --fourth_color: #69737A;
     --fifth_color: #3E4850;
     --sixth_color: #1F2A33;
-    --background-color: rgb(247, 232, 220);
+    /*--background-color: rgb(247, 232, 220);*/
 }
 
 /*Body*/
 body {
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
     color: var(--fifth_color);
     font-family: Arial, sans-serif;
     margin: 0;
@@ -101,6 +101,10 @@ footer {
     font-weight: bold;
 }
 
+.color-botones {
+    background-color: var(--third_color);
+    border-color: var(--third_color);
+}
 @media (max-width: 768px) {
     .container-redes {
         top: 10px;
