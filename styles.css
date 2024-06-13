@@ -10,8 +10,8 @@
 
 /*Body*/
 body {
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: var(--background-color);
+    color: var(--fifth_color);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ header {
 /*Dropdown*/
 
 .dropdown-content a {
-    color: #ffffff;
+    color: white;
     padding: 20px 20px; 
     text-decoration: none;
     font-weight: bold;
@@ -78,7 +78,7 @@ header {
 /*Footer*/
 footer {
     background-color: #6c757d;
-    color: #ffffff;
+    color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -135,13 +135,14 @@ footer {
         max-width: 200px; /* Ajustar tamaño para pantallas más pequeñas */
     }
     
-.dropbtn {
-        background-color: #767f88;
-        /*color: #EEF1FF;*/
+    .dropbtn {
+        background-color: var(--third_color);
+        color: white;
         padding: 16px;
         font-size: 0.9em;
         border: none;
-        border-radius: 20px;
+        font-weight: bold;
+        /*border-radius: 20px;*/
         cursor: pointer;
     }
       
@@ -153,27 +154,27 @@ footer {
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #EEF1FF;
+        background-color: var(--fifth_color);
         /*min-width: 120px;*/
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;    
     }
     .dropdown-content a {
-        color: black;
+        color: white;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
     
     }
       
-    .dropdown-content a:hover {background-color: #6c757d}
+    .dropdown-content a:hover {background-color: var(--second_color)}
       
     .dropdown:hover .dropdown-content {
         display: block; 
     }
       
     .dropdown:hover .dropbtn {
-        background-color: #B1B2FF;
+        background-color: var(--third_color);
     }
 }
 @media (min-width: 768px) {
@@ -192,7 +193,7 @@ footer {
             align-items: center;
         }
     
-        .dropdown-content a:hover {color: #D2DAFF}
+        .dropdown-content a:hover {color: var(--second_color)}
 
 }
 
