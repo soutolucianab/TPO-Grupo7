@@ -105,6 +105,15 @@ footer {
     background-color: var(--third_color);
     border-color: var(--third_color);
 }
+.color-botones:visited {
+    background-color: var(--third_color);
+    border-color: var(--third_color);
+}
+.color-botones:hover {
+    background-color: var(--third_color);
+    border-color: var(--third_color);
+}
+
 @media (max-width: 768px) {
     .container-redes {
         top: 10px;
